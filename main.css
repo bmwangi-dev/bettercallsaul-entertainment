@@ -948,6 +948,20 @@ p {
     box-shadow: 8px 8px 0 var(--yellow);
 }
 
+.map-frame {
+    border: 4px solid var(--ink);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 8px 8px 0 var(--orange);
+}
+
+.map-frame iframe {
+    display: block;
+    width: 100%;
+    height: clamp(300px, 50vw, 460px);
+    border: 0;
+}
+
 /* ---------- Reservation ---------- */
 .contact-cards {
     display: grid;
